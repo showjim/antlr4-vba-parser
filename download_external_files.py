@@ -7,7 +7,7 @@ from urllib import request
 
 DATA_FILES = {
     'https://raw.githubusercontent.com/antlr/grammars-v4/master/vba/vba.g4': None,
-    'https://www.antlr.org/download/antlr-4.9.2-complete.jar': None,
+    'https://www.antlr.org/download/antlr-4.10.1-complete.jar': None,
 }
 
 for netloc, local_filepath in DATA_FILES.items():

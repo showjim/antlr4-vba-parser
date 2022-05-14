@@ -87,7 +87,7 @@ class AntlrBuildCommand(distutils.cmd.Command):
     subprocess.check_call(command)
 
     source_dir = 'data'
-    antlr4_jar = os.path.join(source_dir, 'antlr-4.9.2-complete.jar')
+    antlr4_jar = os.path.join(source_dir, 'antlr-4.10.1-complete.jar')
     vba_g4 = os.path.join(source_dir, 'vba.g4')
 
     command = ['java', '-jar', antlr4_jar, '-Dlanguage=Python3', vba_g4]
